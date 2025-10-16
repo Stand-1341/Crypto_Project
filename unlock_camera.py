@@ -36,7 +36,7 @@ def capture_live_embedding(samples: int = 5):
 
 def compute_embedding_from_frame(frame):
     import numpy as np, cv2, face_recognition
-    FACE_MODEL = "hog"   # must match enrollment
+    FACE_MODEL = "hog"   
     UPSAMPLE   = 1
     JITTERS    = 1
 
