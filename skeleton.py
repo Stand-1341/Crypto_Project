@@ -34,7 +34,6 @@ def derive_key_from_embedding(embedding, salt: bytes, params: dict) -> bytes:
     info = str(params.get("info", "face-key-v1")).encode()
     q = int(params.get("q", 3))
 
-    # Use your existing normalize_embedding()
     v = normalize_embedding(embedding)
     ikm = quantize_embedding(v, q)
 
