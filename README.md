@@ -2,8 +2,8 @@
 
 ## Install
 
-1. Python 3.11+ and dependencies (use your `depend.cmd`).
-2. Confirm camera works.
+1. Python 3.11+ and dependencies (They are located in `depend.cmd`).
+2. Confirm you have a working camera.
 
 ## Enroll → make a QR
 
